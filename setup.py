@@ -4,15 +4,15 @@ with open("README.md", "r", encoding='utf-8') as fh:
     long_description = fh.read()
 
 setup(
-    name='python-telegram-bot-calendar',
+    name='telegram-bot-calendar',
     packages=['telegram_bot_calendar'],
-    version='1.0.5',
+    version='1.1.5',
     license='MIT',
-    description='Python inline calendar for telegram bots',
+    description='Modified Python inline calendar for telegram bots',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author='Artem Bakhanov',
-    author_email='artembakhanov@gmail.com',
+    author='cmd69',
+    author_email='nasamigra@gmail.com',
     url='https://github.com/artembakhanov/python-telegram-bot-calendar',
     download_url='https://github.com/artembakhanov/python-telegram-bot-calendar/archive/v_1.0.2.tar.gz',
     keywords=['calendar', 'telegram', 'bot', 'telegram bot'],
