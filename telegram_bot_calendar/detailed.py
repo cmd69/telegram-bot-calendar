@@ -152,8 +152,10 @@ class DetailedTelegramCalendar(TelegramCalendar):
                                GOTO if next_exists else NOTHING, step, next_page, is_random=self.is_random),
         ]]
 
-        existing_button = self._build_today_button()  # Replace with the actual method to build your existing button
-        nav_buttons[0][1] = existing_button  # Insert your existing button at index 2 (between "<<" and ">>")        
+        if(text[1].format(**data) == ""):
+            existing_button = self._build_today_button()  # Replace with the actual method to build your existing button
+            nav_buttons[0][1] = existing_button  # Insert your existing button at index 2 (between "<<" and ">>")        
+        
         return nav_buttons
 
     def _get_period(self, step, start, diff, *args, **kwargs):
