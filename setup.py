@@ -13,7 +13,7 @@ setup(
     long_description_content_type="text/markdown",
     author='cmd69',
     author_email='nasamigra@gmail.com',
-    url='https://github.com/cmd69/telegram-bot-calendar',
+    url='https://github.com/cmd69/telegram-bot-calendar.git',
     download_url='https://github.com/cmd69/telegram-bot-calendar/archive/1.1.7.tar.gz',
     keywords=['calendar', 'telegram', 'bot', 'telegram bot'],
     install_requires=[
