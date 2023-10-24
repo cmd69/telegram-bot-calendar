@@ -14,7 +14,7 @@ setup(
     author='cmd69',
     author_email='nasamigra@gmail.com',
     url='https://github.com/cmd69/telegram-bot-calendar',
-    download_url='https://github.com/cmd69/telegram-bot-calendar/archive/1.1.7.tar.gz',',
+    download_url='https://github.com/cmd69/telegram-bot-calendar/archive/1.1.7.tar.gz',
     keywords=['calendar', 'telegram', 'bot', 'telegram bot'],
     install_requires=[
         'python-dateutil',
